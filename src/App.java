@@ -29,7 +29,7 @@ public class App {
         // CREAR CLASE heredada con al menos 2 Constructores
 		// que represente un Pentagono Regular
 		PentagonoRegular pentagono = new PentagonoRegular(5);
-		
+		Hexagono hexagono =  new Hexagono();
 		// Getters y Setters ¿Heredados?
 		double lado = pentagono.getLongiLado()
         pentagono.setLongiLado(lado*2);	
